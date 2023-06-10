@@ -31,9 +31,9 @@
             android:id="@+id/editTextEmailSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
             android:gravity="center"
-            android:hint="Email" />
+            android:hint="Email"
+            android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -49,9 +49,9 @@
             android:id="@+id/editTextPasswordSignup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="#000000"
             android:gravity="center"
-            android:hint="Password" />
+            android:hint="Password"
+            android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -67,17 +67,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:textColor="#000000"
             android:hint="Username"
-            />
+            android:textColor="#000000" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:id="@+id/buttonRegister"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="159dp"
-        tools:layout_editor_absoluteY="500dp" />
+        android:layout_marginBottom="183dp"
+        android:text="SIGN UP"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
