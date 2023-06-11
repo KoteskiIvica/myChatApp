@@ -92,7 +92,7 @@ public class SignUpActivity extends AppCompatActivity {
                 String password = editTextPasswordSignup.getText().toString();
                 String userName = editTextUserNameSignup.getText().toString();
 
-                if (!email.equals("")&& password.equals("")&& !userName.equals("")){
+                if (!email.equals("")&& !password.equals("")&& !userName.equals("")){
                     signup(email,password,userName);
                 }
 

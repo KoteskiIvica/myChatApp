@@ -32,7 +32,8 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:hint="Email"
-            app:textInputLayoutFocusedRectEnabled="true" />
+            app:textInputLayoutFocusedRectEnabled="true"
+            android:inputType="textEmailAddress"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -51,7 +52,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:hint="Password" />
+            android:hint="Password"
+            android:inputType="textPassword"/>
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button

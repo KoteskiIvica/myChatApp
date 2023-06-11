@@ -32,7 +32,10 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:hint="Email"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:inputType="textEmailAddress"
+            />
+
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
